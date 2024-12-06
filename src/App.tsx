@@ -1,8 +1,10 @@
-import './App.css';
+import Home from './pages/Home/Home';
 
-const App = function() {
+const App: React.FC = function() {
   return (
-    <div></div>
+    <div>
+      <Home />
+    </div>
   );
 };
 
